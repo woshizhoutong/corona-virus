@@ -23,10 +23,6 @@ class TooltipHeatMap extends React.Component {
         //     csv('../../data/corona-virus-data-2.29.2020.csv').then(setData);
         //     console.log(data);
         // });
-        csv('corona-virus-data-2.29.2020.csv').then(data => {
-            this.state.data = data;
-            console.log(data);
-        })
 
         csv("data.csv").then(function(data) {
             alert("123");
